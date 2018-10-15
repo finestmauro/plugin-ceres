@@ -1,0 +1,9 @@
+<div class="row">
+    {% if columns | length > 0 %}
+        {% for column in columns %}
+        <div class="col-xs-{{ column.width | default(6) }}" data-builder-child-container="{{ column.id }}">
+            {{ children[column.id] | raw }}
+        </div>
+        {% endfor %}
+    {% endif %}
+</div>

@@ -940,6 +940,221 @@
         "settings": {}
     },
     {
+        "identifier": "Ceres::GridWidget",
+        "label": "Widget.gridLabel",
+        "previewImageURL": "/images/widgets/grid-2-col.svg",
+        "type": "structure",
+        "position": 100,
+        "allowedNestingTypes": [
+            "default"
+        ],
+        "widgetClass": "Ceres\\Widgets\\Grid\\GridWidget",
+        "settings": {
+            "firstColumn": {
+                "type": "vertical",
+                "options": {
+                    "name": "Widget.gridColumnLabel"
+                },
+                "children": {
+                    "width": {
+                        "type": "select",
+                        "required": true,
+                        "defaultValue": "6",
+                        "options": {
+                            "name": "Widget.gridWidthLabel",
+                            "listBoxValues": [
+                                {
+                                    "value": "1",
+                                    "caption": "Widget.gridWidthValue1_12"
+                                },
+                                {
+                                    "value": "2",
+                                    "caption": "Widget.gridWidthValue2_12"
+                                },
+                                {
+                                    "value": "3",
+                                    "caption": "Widget.gridWidthValue3_12"
+                                },
+                                {
+                                    "value": "4",
+                                    "caption": "Widget.gridWidthValue4_12"
+                                },
+                                {
+                                    "value": "5",
+                                    "caption": "Widget.gridWidthValue5_12"
+                                },
+                                {
+                                    "value": "6",
+                                    "caption": "Widget.gridWidthValue6_12"
+                                },
+                                {
+                                    "value": "7",
+                                    "caption": "Widget.gridWidthValue7_12"
+                                },
+                                {
+                                    "value": "8",
+                                    "caption": "Widget.gridWidthValue8_12"
+                                },
+                                {
+                                    "value": "9",
+                                    "caption": "Widget.gridWidthValue9_12"
+                                },
+                                {
+                                    "value": "10",
+                                    "caption": "Widget.gridWidthValue10_12"
+                                },
+                                {
+                                    "value": "11",
+                                    "caption": "Widget.gridWidthValue11_12"
+                                },
+                                {
+                                    "value": "12",
+                                    "caption": "Widget.gridWidthValue12_12"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "secondColumn": {
+                "type": "vertical",
+                "options": {
+                    "name": "Widget.gridColumnLabel"
+                },
+                "children": {
+                    "width": {
+                        "type": "select",
+                        "required": true,
+                        "defaultValue": "6",
+                        "options": {
+                            "name": "Widget.gridWidthLabel",
+                            "listBoxValues": [
+                                {
+                                    "value": "1",
+                                    "caption": "Widget.gridWidthValue1_12"
+                                },
+                                {
+                                    "value": "2",
+                                    "caption": "Widget.gridWidthValue2_12"
+                                },
+                                {
+                                    "value": "3",
+                                    "caption": "Widget.gridWidthValue3_12"
+                                },
+                                {
+                                    "value": "4",
+                                    "caption": "Widget.gridWidthValue4_12"
+                                },
+                                {
+                                    "value": "5",
+                                    "caption": "Widget.gridWidthValue5_12"
+                                },
+                                {
+                                    "value": "6",
+                                    "caption": "Widget.gridWidthValue6_12"
+                                },
+                                {
+                                    "value": "7",
+                                    "caption": "Widget.gridWidthValue7_12"
+                                },
+                                {
+                                    "value": "8",
+                                    "caption": "Widget.gridWidthValue8_12"
+                                },
+                                {
+                                    "value": "9",
+                                    "caption": "Widget.gridWidthValue9_12"
+                                },
+                                {
+                                    "value": "10",
+                                    "caption": "Widget.gridWidthValue10_12"
+                                },
+                                {
+                                    "value": "11",
+                                    "caption": "Widget.gridWidthValue11_12"
+                                },
+                                {
+                                    "value": "12",
+                                    "caption": "Widget.gridWidthValue12_12"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "columns": {
+                "type": "vertical",
+                "isList": true,
+                "options": {
+                    "name": "Widget.gridColumnLabel"
+                },
+                "children": {
+                    "id": {
+                        "type": "uid"
+                    },
+                    "width": {
+                        "type": "select",
+                        "required": true,
+                        "defaultValue": "6",
+                        "options": {
+                            "name": "Widget.gridWidthLabel",
+                            "listBoxValues": [
+                                {
+                                    "value": "1",
+                                    "caption": "Widget.gridWidthValue1_12"
+                                },
+                                {
+                                    "value": "2",
+                                    "caption": "Widget.gridWidthValue2_12"
+                                },
+                                {
+                                    "value": "3",
+                                    "caption": "Widget.gridWidthValue3_12"
+                                },
+                                {
+                                    "value": "4",
+                                    "caption": "Widget.gridWidthValue4_12"
+                                },
+                                {
+                                    "value": "5",
+                                    "caption": "Widget.gridWidthValue5_12"
+                                },
+                                {
+                                    "value": "6",
+                                    "caption": "Widget.gridWidthValue6_12"
+                                },
+                                {
+                                    "value": "7",
+                                    "caption": "Widget.gridWidthValue7_12"
+                                },
+                                {
+                                    "value": "8",
+                                    "caption": "Widget.gridWidthValue8_12"
+                                },
+                                {
+                                    "value": "9",
+                                    "caption": "Widget.gridWidthValue9_12"
+                                },
+                                {
+                                    "value": "10",
+                                    "caption": "Widget.gridWidthValue10_12"
+                                },
+                                {
+                                    "value": "11",
+                                    "caption": "Widget.gridWidthValue11_12"
+                                },
+                                {
+                                    "value": "12",
+                                    "caption": "Widget.gridWidthValue12_12"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
         "identifier": "Ceres::ThreeColumnWidget",
         "label": "Widget.gridThreeColumnLabel",
         "previewImageURL": "/images/widgets/grid-3-col.svg",
